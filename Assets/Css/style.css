@@ -140,6 +140,17 @@ main .languages img {
   opacity: 0.5;
   filter: grayscale(1);
 }
+main .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f1e9dc;
+  padding: 2vh 0 2vh 0;
+}
+main .title p {
+  text-align: center;
+}
 main .projects {
   width: 100%;
   height: auto;
