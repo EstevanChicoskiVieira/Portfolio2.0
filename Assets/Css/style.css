@@ -146,7 +146,7 @@ main .title {
   align-items: center;
   justify-content: center;
   background: #f1e9dc;
-  padding: 2vh 0 2vh 0;
+  padding: 2vh 5vh 2vh 5vh;
 }
 main .title p {
   text-align: center;
