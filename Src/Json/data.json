@@ -5,7 +5,8 @@
         "github" : "https://github.com/EstevanChicoskiVieira/jCoffee/tree/main",
         "button" : "Visualizar",
         "image" : "../../Assets/Imgs/Banners/jCoffee.jpg",
-        "id" : "jcoffee"
+        "id" : "jcoffee",
+        "status" : false
     },
     {
         "name" : "Scientific Collab Hub",
@@ -13,7 +14,8 @@
         "github" : "https://github.com/EstevanChicoskiVieira/ScientificCollabHub/",
         "button" : "Indisponível",
         "image" : "../../Assets/Imgs/Banners/SCHub.jpg",
-        "id" : "SCHub"
+        "id" : "SCHub",
+        "status" : false
     },
     {
         "name" : "Talk Wave",
@@ -21,7 +23,8 @@
         "github" : "https://github.com/EstevanChicoskiVieira/TalkWave",
         "button" : "Visualizar",
         "image" : "../../Assets/Imgs/Banners/talkwave.jpg",
-        "id" : "talkwave"
+        "id" : "talkwave",
+        "status" : false
     },
     {
         "name" : "Illusion Squad",
@@ -29,7 +32,8 @@
         "github" : "https://github.com/EstevanChicoskiVieira/IllusionSquad",
         "button" : "Indisponível",
         "image" : "../../Assets/Imgs/Banners/illusion.jpg",
-        "id" : "illusion"
+        "id" : "illusion",
+        "status" : false
     }, 
     {
         "name" : "Cafeteria Jeall's",
@@ -37,7 +41,8 @@
         "github" : "https://github.com/EstevanChicoskiVieira/jeallscoffee",
         "button" : "Visualizar",
         "image" : "../../Assets/Imgs/Banners/cafeteriajealls.jpg",
-        "id" : "cafeteria"
+        "id" : "cafeteria",
+        "status" : true
     },
     {
         "name" : "D'dogs",
@@ -45,7 +50,8 @@
         "github" : "https://github.com/EstevanChicoskiVieira/d-dogs",
         "button" : "Visualizar",
         "image" : "../../Assets/Imgs/Banners/ddogs.jpg",
-        "id" : "ddogs"
+        "id" : "ddogs",
+        "status" : true
     },
     {
         "name" : "JeallTube",
@@ -53,6 +59,7 @@
         "github" : "https://github.com/EstevanChicoskiVieira/youtubeClone",
         "button" : "Visualizar",
         "image" : "../../Assets/Imgs/Banners/tube.jpg",
-        "id" : "tube"
+        "id" : "tube",
+        "status" : "notr"
     }
 ]

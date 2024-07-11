@@ -51,6 +51,7 @@ function CarregarCards() {
                 const a = document.createElement("a");
                 a.target = "_blank";
                 const text = document.createElement("p");
+                const status = document.createElement("p");
 
                 text.textContent = card.button;
                 a.href = card.link;
@@ -58,6 +59,7 @@ function CarregarCards() {
                 h2.textContent = card.nome;
                 Infos.appendChild(h2);
                 Infos.appendChild(p);
+                Infos.appendChild(status);
                 Infos.appendChild(a);
                 a.appendChild(text);
                 oCard.appendChild(Infos);
@@ -69,6 +71,17 @@ function CarregarCards() {
                     text.style.color = "#f57777ff"
                 } else {
                     a.href = `${card.github}`
+                }
+
+                if (card.status == true) {
+                    status.textContent = "Status: Finalizado";
+                    status.style.color = "#1a530c"
+                } else if (card.status == false) {
+                    status.textContent = "Status: Em desenvolvimento";
+                    status.style.color = "#f57777ff"
+                } else {
+                    status.textContent = "Status: Não Responsivo";
+                    status.style.color = "#94860d"
                 }
 
                 container[0].appendChild(oCard);
