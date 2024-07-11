@@ -69,6 +69,11 @@ function CarregarCards() {
                     a.style.cursor = "not-allowed"
                     a.style.borderColor = "#f57777ff"
                     text.style.color = "#f57777ff"
+
+                    a.addEventListener('click', () => {
+                        alert("Este projeto encontra-se indisponível no momento.");
+                    })
+                    
                 } else {
                     a.href = `${card.github}`
                 }
