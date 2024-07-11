@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 function CarregarCards() {
-    fetch("../../Src/Json/data.json")
+    fetch("../../Src/Json/projects.json")
         .then(response => response.json())
         .then(cards => {
             const container = document.getElementsByClassName("projects");
@@ -95,3 +95,56 @@ function CarregarCards() {
 }
 
 CarregarCards();
+
+function CarregarCards2() {
+    fetch("../../Src/Json/exp.json")
+        .then(response => response.json())
+        .then(cards => {
+            const container = document.getElementsByClassName("experiencias");
+
+            cards.map(card => {
+                const oCard = document.createElement("div");
+                oCard.classList.add("card");
+
+                const cargo = document.createElement("h2");
+                const empresa = document.createElement("p");
+
+                empresa.id = 'empresa';
+                if (card.empresa == "Sem Registro") {
+                    empresa.style.color = "#f57777ff"
+                } else {
+                    empresa.textContent = card.empresa;
+                }
+
+                const periodo = document.createElement("p");
+                const descricao = document.createElement("p");
+                const skills = document.createElement("div");
+            
+                card.skills.forEach(skill => {
+                    const theSkill = document.createElement("p");
+                    theSkill.textContent = skill;
+                    skills.appendChild(theSkill);
+                });
+
+                const sistema = document.createElement("p");
+
+                cargo.textContent = card.cargo;
+                empresa.textContent = card.empresa;
+                periodo.textContent = card.duration;
+                sistema.textContent = card.sistema;
+                descricao.textContent = card.description;
+                skills.classList.add("skills")
+
+                oCard.appendChild(cargo);
+                oCard.appendChild(empresa);
+                oCard.appendChild(periodo);
+                oCard.appendChild(descricao);
+                oCard.appendChild(skills);
+                oCard.appendChild(sistema);
+
+                container[0].appendChild(oCard);
+            });
+        });
+}
+
+CarregarCards2();
