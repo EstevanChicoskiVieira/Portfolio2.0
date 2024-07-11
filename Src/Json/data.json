@@ -1,0 +1,58 @@
+[
+    {
+        "name" : "jCoffee",
+        "description" : "Um simples sistema de atendimentos para uma cafeteria.",
+        "github" : "https://github.com/EstevanChicoskiVieira/jCoffee/tree/main",
+        "button" : "Visualizar",
+        "image" : "../../Assets/Imgs/Banners/jCoffee.jpg",
+        "id" : "jcoffee"
+    },
+    {
+        "name" : "Scientific Collab Hub",
+        "description" : "Uma ferramenta para colaborar em projetos científicos.",
+        "github" : "https://github.com/EstevanChicoskiVieira/ScientificCollabHub/",
+        "button" : "Indisponível",
+        "image" : "../../Assets/Imgs/Banners/SCHub.jpg",
+        "id" : "SCHub"
+    },
+    {
+        "name" : "Talk Wave",
+        "description" : "Ouça milhares de músicas junto de seus amigos.",
+        "github" : "https://github.com/EstevanChicoskiVieira/TalkWave",
+        "button" : "Visualizar",
+        "image" : "../../Assets/Imgs/Banners/talkwave.jpg",
+        "id" : "talkwave"
+    },
+    {
+        "name" : "Illusion Squad",
+        "description" : "Comunidade que busca ajudar programadores e hackers iniciantes.",
+        "github" : "https://github.com/EstevanChicoskiVieira/IllusionSquad",
+        "button" : "Indisponível",
+        "image" : "../../Assets/Imgs/Banners/illusion.jpg",
+        "id" : "illusion"
+    }, 
+    {
+        "name" : "Cafeteria Jeall's",
+        "description" : "Um site lindo e moderno para uma cafeteria.",
+        "github" : "https://github.com/EstevanChicoskiVieira/jeallscoffee",
+        "button" : "Visualizar",
+        "image" : "../../Assets/Imgs/Banners/cafeteriajealls.jpg",
+        "id" : "cafeteria"
+    },
+    {
+        "name" : "D'dogs",
+        "description" : "Projeto que busca ajudar cachorros em situação de rua.",
+        "github" : "https://github.com/EstevanChicoskiVieira/d-dogs",
+        "button" : "Visualizar",
+        "image" : "../../Assets/Imgs/Banners/ddogs.jpg",
+        "id" : "ddogs"
+    },
+    {
+        "name" : "JeallTube",
+        "description" : "Apenas um clone do YouTube, fiz por motivos de estudo. (Não responsivo)",
+        "github" : "https://github.com/EstevanChicoskiVieira/youtubeClone",
+        "button" : "Visualizar",
+        "image" : "../../Assets/Imgs/Banners/tube.jpg",
+        "id" : "tube"
+    }
+]

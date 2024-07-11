@@ -196,76 +196,6 @@ main {
         flex-wrap: wrap;
         background: $background;
 
-        #jcoffee {
-            .banner {
-                background: url(../Imgs/Banners/jCoffee.jpg) center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
-            }
-        }
-
-        #SCHub {
-            .banner {
-                background: url(../Imgs/Banners/SCHub.jpg) center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
-            }
-        }
-
-        #illusion {
-            .banner {
-                background: url(../Imgs/Banners/illusion.jpg) center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
-            }
-        }
-
-        #cafeteria {
-            .banner {
-                background: url(../Imgs/Banners/cafeteriajealls.jpg) center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
-            }
-        }
-
-        #talkwave {
-            .banner {
-                background: url(../Imgs/Banners/talkwave.jpg) center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
-            }
-        }
-
-        #ddogs {
-            .banner {
-                background: url(../Imgs/Banners/ddogs.jpg) center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
-            }
-        }
-
-        #tube {
-            .banner {
-                background: url(../Imgs/Banners/tube.jpg) center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
-            }
-        }
-
         .card {
             width: 20vw;
             height: 50vh;
@@ -277,6 +207,14 @@ main {
             .banner {
                 width: 100%;
                 height: 20vh;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 10px 10px 0 0;
+                }
             }
 
             .infos {
