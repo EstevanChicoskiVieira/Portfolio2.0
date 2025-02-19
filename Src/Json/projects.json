@@ -1,21 +1,21 @@
 [
     {
-        "name" : "jCoffee",
-        "description" : "Um simples sistema de atendimentos para uma cafeteria.",
-        "github" : "https://github.com/EstevanChicoskiVieira/jCoffee/tree/main",
+        "name" : "NXT Bots",
+        "description" : "Um bot completo para seu servidor de Discord. Com comandos que vão desde moderação até diversão.",
+        "github" : "https://nxtbots.com/",
         "button" : "Visualizar",
-        "image" : "../../Assets/Imgs/Banners/jCoffee.jpg",
-        "id" : "jcoffee",
-        "status" : false
+        "image" : "../../Assets/Imgs/Banners/nxt.png",
+        "id" : "nxt",
+        "status" : true
     },
     {
-        "name" : "Scientific Collab Hub",
-        "description" : "Uma ferramenta para colaborar em projetos científicos.",
-        "github" : "https://github.com/EstevanChicoskiVieira/ScientificCollabHub/",
-        "button" : "Indisponível",
-        "image" : "../../Assets/Imgs/Banners/SCHub.jpg",
-        "id" : "SCHub",
-        "status" : false
+        "name" : "Sistema Atencimento Ticket por IA",
+        "description" : "Um bot de Discord que faz etendimento de ticket com a API do Gemini",
+        "github" : "https://github.com/Jeallz/Sistema-ticket-por-IA-Discord-Completo",
+        "button" : "Visualizar",
+        "image" : "../../Assets/Imgs/Banners/discordai.png",
+        "id" : "discordai",
+        "status" : true
     },
     {
         "name" : "Talk Wave",
@@ -26,15 +26,6 @@
         "id" : "talkwave",
         "status" : false
     },
-    {
-        "name" : "Illusion Squad",
-        "description" : "Comunidade que busca ajudar programadores e hackers iniciantes.",
-        "github" : "https://github.com/EstevanChicoskiVieira/IllusionSquad",
-        "button" : "Indisponível",
-        "image" : "../../Assets/Imgs/Banners/illusion.jpg",
-        "id" : "illusion",
-        "status" : false
-    }, 
     {
         "name" : "Cafeteria Jeall's",
         "description" : "Um site lindo e moderno para uma cafeteria.",
@@ -54,12 +45,12 @@
         "status" : true
     },
     {
-        "name" : "JeallTube",
-        "description" : "Apenas um clone do YouTube, fiz por motivos de estudo. (Não responsivo)",
-        "github" : "https://github.com/EstevanChicoskiVieira/youtubeClone",
+        "name" : "Street Networks",
+        "description" : "Mapeamento de problemas de infraestrutura urbana",
+        "github" : "https://github.com/Jeallz/Street_Networks.git",
         "button" : "Visualizar",
-        "image" : "../../Assets/Imgs/Banners/tube.jpg",
-        "id" : "tube",
-        "status" : "notr"
+        "image" : "../../Assets/Imgs/Banners/streetnetworks.png",
+        "id" : "street",
+        "status" : true
     }
 ]
